@@ -1,0 +1,38 @@
+{
+    "name": "pfilsx/db-broker",
+    "description": "QueryBuilder interface",
+    "keywords": [
+        "query builder",
+        "oracle",
+        "mysql",
+        "pgsql"
+    ],
+    "type": "library",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/pfilsx/db-broker",
+    "authors": [
+        {
+            "name": "pfilsx Pavel",
+            "email": "pfilsx@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Yii2 authors",
+            "homepage": "https://www.yiiframework.com/",
+            "role": "Source"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pfilsx/db-broker/issues",
+        "source": "https://github.com/pfilsx/db-broker"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pfilsx\\db_broker\\": ""
+        }
+    }
+}
